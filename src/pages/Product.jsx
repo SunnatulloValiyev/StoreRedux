@@ -10,7 +10,7 @@ function Product() {
   const product = useLoaderData();
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="max-w-4xl mt-10 mx-auto p-6">
       <h1 className="text-2xl font-bold mb-4">{product.title}</h1>
 
       <div className="flex flex-col md:flex-row gap-6">
